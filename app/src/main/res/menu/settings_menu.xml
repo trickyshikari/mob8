@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/ansView"
+        android:checkable="true"
+        android:checked="true"
+        android:title="Показывать ответы"
+        app:actionViewClass="android.widget.ToggleButton"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/font"
+        android:checkable="false"
+        android:title="Шрифт">
+        <menu>
+            <item
+                android:id="@+id/fontHeightMin"
+                android:title="Обычный" />
+            <item
+                android:id="@+id/fontHeightMax"
+                android:title="Крупный" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/time"
+        android:title="Длительность игры">
+        <menu>
+            <item
+                android:id="@+id/item10"
+                android:title="10" />
+            <item
+                android:id="@+id/item30"
+                android:title="30" />
+            <item
+                android:id="@+id/item60"
+                android:title="60" />
+        </menu>
+    </item>
+</menu>

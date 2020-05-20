@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">lab3</string>
+    <string name="article">Совпадает ли название цвета слева с цветом справа</string>
+    <string name="timer">таймер</string>
+    <string name="nameColor">лево</string>
+    <string name="viewColor">право</string>
+    <string name="start">Играть</string>
+    <string name="btnYes">Да</string>
+    <string name="btnNo">Нет</string>
+    <string name="fontHeightMax">Крупный шрифт</string>
+    <string name="fontHeightMin">Обычный шрифт</string>
+    <string name="timerCount">Длительность игры:</string>
+    <string name="ansView">Показывать ответы</string>
+    <string name="commonGame">Обычная игра</string>
+    <string name="hardGame">Без ошибок</string>
+    <string-array name="spinnerItems">
+        <item>10</item>
+        <item>30</item>
+        <item>60</item>
+    </string-array>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="titleOver">"Игра окончена"</string>
+    <string name="tvTrue">"Правильных ответов:"</string>
+    <string name="tvFalse">"Неправильных ответов:"</string>
+    <string name="tvSend">"На почту"</string>
+    <string name="tvTry">"Сыграть ещё"</string>
+    <string name="btnExit">"Выход"</string>
+</resources>

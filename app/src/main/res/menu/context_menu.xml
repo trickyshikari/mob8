@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".gameover">
+
+
+    <item
+        android:id="@+id/send"
+        android:icon="@android:drawable/ic_menu_day"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom|withText"
+        android:title="Отправить" />
+
+    <item
+        android:id="@+id/back"
+        android:icon="@android:drawable/ic_menu_day"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom|withText"
+        android:title="Назад" />
+
+    <item
+        android:id="@+id/finish"
+        android:icon="@android:drawable/ic_menu_day"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom|withText"
+        android:title="Выйти" />
+</menu>
